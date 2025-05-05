@@ -1,0 +1,18 @@
+header{
+    background-color: var(---backco-prin);
+width: 100%;
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+color: var(---color-letra);
+font-family: "Cal Sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 2vh;
+}
+
+:Root{
+    ---backco-prin: #5D6363;
+     ---color-letra:  #D5DBDB;   
+    }
