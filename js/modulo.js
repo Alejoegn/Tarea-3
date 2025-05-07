@@ -1,5 +1,5 @@
 document.getElementById("header").innerHTML = "<h1>TITULO PAGINA</h1>";
-document.getElementById("nav").innerHTML = `<ul>
+document.getElementById("nav").innerHTML = `<ul class="desaparece">
         <li><a href="index.html">INICIO</a></li>
         <li><a href="galeria.html">GALERIA</a></li>
         <li><a href="contacto.html">CONTACTO</a></li>

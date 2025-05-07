@@ -40,3 +40,8 @@ footer .iconos{
  height: 5vh;
  width: 12vh;
 }
+@media screen and (max-width: 500px) {
+  footer .letritas{
+   font-size: small;
+  }
+  }

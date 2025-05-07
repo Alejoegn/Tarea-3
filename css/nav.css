@@ -31,3 +31,11 @@ font-weight: 400;
 font-style: normal;
 
 }
+@media screen and (max-width: 500px) {
+ .desaparece{
+  display: none;
+ }
+ nav{
+  height: 4vh;
+ }
+ }
