@@ -1,8 +1,9 @@
 document.getElementById("header").innerHTML = "<h1>TITULO PAGINA</h1>";
-document.getElementById("nav").innerHTML = `<ul class="desaparece">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="galeria.html">GALERIA</a></li>
-        <li><a href="contacto.html">CONTACTO</a></li>
+document.getElementById("nav").innerHTML = `<button class="menu-toggle">☰  Menú</button>
+    <ul class="desaparece">
+      <li><a href="index.html">INICIO</a></li>
+      <li><a href="galeria.html">GALERIA</a></li>
+      <li><a href="contacto.html">CONTACTO</a></li>
     </ul>`;
 document.getElementById("footer").innerHTML = `<footer>
     <section>
@@ -20,3 +21,9 @@ document.getElementById("footer").innerHTML = `<footer>
         <p>Lorem, ipsum dolor.</p>
     </div>
    </footer>`;
+     const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.desaparece');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });

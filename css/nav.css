@@ -38,4 +38,30 @@ font-style: normal;
  nav{
   height: 4vh;
  }
+  .menu-toggle {
+        display: block;
+        height: 85% ;
+        width: 30%;
+        display: flex;
+        align-items: center;
+      }
+
+      .desaparece {
+        display: none;
+        flex-direction:initial;
+        margin-top: 10px;
+      }
+
+      .desaparece.show {
+        display: flex;
+      }
+
+      .desaparece li a {
+        padding: 10px 0;
+      }
+ }
+ @media screen and (min-width: 551px){
+  .menu-toggle{
+   display: none; 
+  }
  }
