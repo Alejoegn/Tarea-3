@@ -25,3 +25,23 @@ main section{
  align-items: center;
  justify-content: space-around;   
 }
+@media screen and (max-width: 500px) {
+main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 80vmin;
+}
+main section{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 70%;
+
+
+}
+ main img{
+   width: 40%;
+ }
+
+}
