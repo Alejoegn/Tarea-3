@@ -46,3 +46,10 @@ main section .sub h3{
         font-style: normal;
         color: var(---col-let);
 }
+@media screen and (max-width: 550px) {
+main section div p{
+width: 90%;
+
+}
+
+}
