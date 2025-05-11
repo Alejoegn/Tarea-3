@@ -30,7 +30,7 @@ main{
  display: flex;
  flex-direction: column;
  align-items: center;
- height: 80vmin;
+ height: 100vmin;
 }
 main section{
  display: flex;
@@ -43,5 +43,7 @@ main section{
  main img{
    width: 40%;
  }
-
+body{
+  height: 100%;
+}
 }
